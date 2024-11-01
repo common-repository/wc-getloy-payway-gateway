@@ -1,0 +1,136 @@
+# Copyright (C) 2017 PayWay for WooCommerce (powered by GetLoy)
+# This file is distributed under the same license as the PayWay for WooCommerce (powered by GetLoy) package.
+msgid ""
+msgstr ""
+"Project-Id-Version: PayWay for WooCommerce (powered by GetLoy)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/gateway/class-wc-getloy-payway-gateway-payment-gateway.php:31
+msgid "PayWay (powered by GetLoy)"
+msgstr ""
+
+#: src/gateway/class-wc-getloy-payway-gateway-payment-gateway.php:32
+msgid "Accept international credit card payments to your Cambodian bank account through GetLoy using PayWay by ABA Bank."
+msgstr ""
+
+#: src/gateway/class-wc-getloy-payway-gateway-payment-gateway.php:79
+msgid "Enable/Disable"
+msgstr ""
+
+#: src/gateway/class-wc-getloy-payway-gateway-payment-gateway.php:80
+msgid "Enable PayWay (powered by GetLoy)"
+msgstr ""
+
+#: src/gateway/class-wc-getloy-payway-gateway-payment-gateway.php:96
+msgstr ""
+
+#: src/gateway/class-wc-getloy-payway-gateway-payment-gateway.php:100
+msgid "GetLoy merchant token"
+msgstr ""
+
+#: src/gateway/class-wc-getloy-payway-gateway-payment-gateway.php:102
+msgid "You will received this token from GetLoy after setting up your account."
+msgstr ""
+
+#: src/gateway/class-wc-getloy-payway-gateway-payment-gateway.php:107
+msgid "PayWay merchant ID"
+msgstr ""
+
+#: src/gateway/class-wc-getloy-payway-gateway-payment-gateway.php:109
+msgid "You will receive your merchant ID by email from ABA Bank. It is the same for test and production mode."
+msgstr ""
+
+#: src/gateway/class-wc-getloy-payway-gateway-payment-gateway.php:114
+msgid "Test mode"
+msgstr ""
+
+#: src/gateway/class-wc-getloy-payway-gateway-payment-gateway.php:115
+msgid "Enable Test Mode"
+msgstr ""
+
+#: src/gateway/class-wc-getloy-payway-gateway-payment-gateway.php:117
+msgid "Place the payment gateway in test mode (no actual payments will be made)."
+msgstr ""
+
+#: src/gateway/class-wc-getloy-payway-gateway-payment-gateway.php:122
+msgid "PayWay test API key"
+msgstr ""
+
+#: src/gateway/class-wc-getloy-payway-gateway-payment-gateway.php:124
+msgid "You will recieve this key from ABA Bank with your test account credentials."
+msgstr ""
+
+#: src/gateway/class-wc-getloy-payway-gateway-payment-gateway.php:129
+msgid "PayWay production API key"
+msgstr ""
+
+#: src/gateway/class-wc-getloy-payway-gateway-payment-gateway.php:131
+msgid "You will recieve this key from ABA Bank after completing the tests."
+msgstr ""
+
+#: src/gateway/class-wc-getloy-payway-gateway-payment-gateway.php:141
+msgid "Transaction ID prefix"
+msgstr ""
+
+#: src/gateway/class-wc-getloy-payway-gateway-payment-gateway.php:143
+msgid "This text will be prepended to the WooCommerce order number to create the PayWay order ID. This makes it easy to see in the PayWay order management where the payments came from."
+msgstr ""
+
+#: src/gateway/class-wc-getloy-payway-gateway-payment-gateway.php:147
+msgid "Transaction ID suffix"
+msgstr ""
+
+#: src/gateway/class-wc-getloy-payway-gateway-payment-gateway.php:149
+msgid "This text will be appended to the WooCommerce order number to create the PayWay order ID."
+msgstr ""
+
+#: src/gateway/class-wc-getloy-payway-gateway-payment-gateway.php:166, src/gateway/class-wc-getloy-payway-gateway-payment-gateway.php:204, src/gateway/class-wc-getloy-payway-gateway-payment-gateway.php:575
+msgid "The PayWay payment gateway is not configured properly. Please ask the site administrator to complete the configuration."
+msgstr ""
+
+#: src/gateway/class-wc-getloy-payway-gateway-payment-gateway.php:229, src/gateway/class-wc-getloy-payway-gateway-payment-gateway.php:466, src/gateway/class-wc-getloy-payway-gateway-payment-gateway.php:478, src/gateway/class-wc-getloy-payway-gateway-payment-gateway.php:491, src/gateway/class-wc-getloy-payway-gateway-payment-gateway.php:504, src/gateway/class-wc-getloy-payway-gateway-payment-gateway.php:517, src/gateway/class-wc-getloy-payway-gateway-payment-gateway.php:545
+msgstr ""
+
+#: src/gateway/class-wc-getloy-payway-gateway-payment-gateway.php:377
+msgid "PayWay payment received - transaction ID: %s"
+msgstr ""
+
+#: src/gateway/class-wc-getloy-payway-gateway-payment-gateway.php:382
+msgid "Payment timed out"
+msgstr ""
+
+#: src/gateway/class-wc-getloy-payway-gateway-payment-gateway.php:453
+msgid "PayWay gateway error: This plugin requires PHP 5.3 and above. You are using version %s."
+msgstr ""
+
+#: src/gateway/class-wc-getloy-payway-gateway-payment-gateway.php:533
+msgid "PayWay payment gateway is in test mode, no real payments are processed!"
+msgstr ""
+
+#: src/includes/class-wc-getloy-payway-gateway.php:306
+msgid "Settings"
+msgstr ""
+
+#: src/gateway/includes/class-wc-getloy-payway-gateway-getloy-connector.php:169
+msgid "Transaction ID must be less than 20 characters long."
+msgstr ""
+
+#: src/gateway/includes/class-wc-getloy-payway-gateway-getloy-connector.php:183
+msgid "Transaction amount must be greater than 0."
+msgstr ""
+
+#: src/gateway/includes/class-wc-getloy-payway-gateway-getloy-connector.php:198
+msgid "PayWay only supports transactions in US Dollars."
+msgstr ""
+
+#: src/gateway/includes/class-wc-getloy-payway-gateway-getloy-connector.php:215, src/gateway/includes/class-wc-getloy-payway-gateway-getloy-connector.php:237
+msgid "Invalid transaction item: Object of type Wc_Getloy_Payway_Gateway_Getloy_Transaction_Item expected, but got %s."
+msgstr ""
